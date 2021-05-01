@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #3e3e3e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  p {
+    font-family: Lato;
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  header,
+  section {
+    padding: 8rem 0;
+    min-height: 90vh;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .half-width {
+    width: 45%;
+    float: left;
+  }
+  .half-width--first {
+    margin-right: 10rem;
+  }
+  .text-martinique {
+    color: #363958;
+  }
+  .text-salmon {
+    color: #ff8367;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .heading-primary,
+  .heading-secondary {
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 1px;
+  }
+  .heading-primary {
+    font-size: 8rem;
+  }
+  .heading-secondary {
+    font-size: 4.8rem;
+  }
+  .heading-tertiary {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  .btn {
+    color: #fff;
+    background-image: linear-gradient(to bottom, #f46060, #ff8063);
+    padding: 0.8em 1.5em;
+    font-size: 1.8rem;
+    display: inline-block;
+    border-radius: 0.2em;
+    text-align: center;
+  }
+  
+  
+  .navbar {
+    float: right;
+  }
+  .nav-menu {
+    list-style: none;
+    color: #3c3c3c;
+  }
+  .nav-menu__item {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .nav-menu__item a {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .nav-menu__item:not(:last-child) a {
+    margin-right: 1rem;
+  }
+  
+  
+  .hero-section {
+    padding-top: 10rem;
+  }
+  
+  .hero-section .heading-primary span {
+    display: block;
+  }
+  
+  .hero-section .heading-primary span:first-child {
+    margin-bottom: -2rem;
+  }
+  
+  .hero-section p {
+    width: 68%;
+  }
+  
+  .hero-section .btn,
+  .section-about .btn {
+    margin: 3rem 0;
+  }
+  
+  .section-about .btn {
+    position: relative;
+    padding-left: 2em;
+  }
+  
+  .section-about .btn::before {
+    content: "";
+    background-image: url(./images/download.svg);
+    background-repeat: no-repeat;
+    width: 2.8rem;
+    height: 2.8rem;
+    position: absolute;
+    left: 0.8rem;
+  }
+  
+  .section-work {
+    background: #f8f9fc;
+  }
+  .projects {
+    margin-top: 5rem;
+  }
+  .project {
+    width: 30%;
+    background: #fff;
+    display: inline-block;
+    box-shadow: 0 4.8px 15.74px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5em;
+    height: 320px;
+  }
+  .project:not(:first-of-type) {
+    margin-left: 5rem;
+  }
+  .project-content {
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .project .heading-tertiary {
+    margin: 2rem 0 0.5rem 0;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+  }
+  .project p {
+    color: #6c6c6c;
+    font-size: 1.6rem;
+  }
+  
+  .project img {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .section-contact {
+    min-height: 0;
+  }
+  
+  .cta {
+    background: url(./images/Group_33094_1.png);
+    background-position: bottom;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5em;
+    background-size: cover;
+    height: 200px;
+    border-radius: 3rem;
+  }
+  .cta-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .cta .heading-primary {
+    font-size: 6rem;
+    margin-top: 8%;
+    letter-spacing: 2px;
+  }
+  
+  .cta .btn {
+    float: right;
+    margin-top: -10.5%;
+    font-weight: bold;
+  }
+  
+  .footer {
+    padding-bottom: 5rem;
+  }
+  
+  .footer .stay-connected {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 3rem;
+    color: #696871;
+    margin: 1rem 0;
+  }
+  
+  .footer .email {
+    font-size: 4rem;
+  }
+  
+  .social-media {
+    margin: 3.5rem 0;
+    text-align: center;
+  }
+  .social-media__item {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: inline-block;
+    margin-left: 2rem;
+  }
